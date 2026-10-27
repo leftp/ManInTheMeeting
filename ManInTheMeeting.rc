@@ -1,0 +1,2 @@
+#include "resource.h"
+IDR_WHISPER_MODEL RCDATA "vendor/ggml-base.en-q5_1.bin"
