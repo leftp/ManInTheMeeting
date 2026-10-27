@@ -66,8 +66,7 @@ resource.
 Any GGML whisper model works — no code changes, just swap the
 embedded file:
 
-1. Get a `ggml-*.bin` model (pre-made ones:
-   [ggml-org/whisper.cpp on Hugging Face](https://huggingface.co/ggml-org/whisper.cpp)).
+1. Get a `ggml-*.bin` model 
 2. Drop it in `vendor/`.
 3. Point the resource at it in `ManInTheMeeting.rc`, e.g.
    `IDR_WHISPER_MODEL RCDATA "vendor/ggml-small.en-q5_1.bin"`.
